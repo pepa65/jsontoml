@@ -1,38 +1,31 @@
-# json2toml
+# jsontoml 0.2.0
+**Convert a JSON file to TOML on the CLI**
+* Repo: https://github.com/pepa65/json2toml
+* After [json2toml](https://github.com/voidei/json2toml)
+* Inspired heavily by [toml2json](https://github.com/woodruffw/toml2json/)
 
-A simple CLI tool that converts json files to toml files.
-The created file's name matches the input file,
-but with the `.toml` extension instead of `.json`.
+## Usage
+```
+Convert a JSON file to TOML on the CLI
 
-Inspired heavily by [toml2json](https://github.com/woodruffw/toml2json/).
+Usage: jsontoml [input]
 
-**Usage:**
+Arguments:
+  [input]  JSON file to convert to TOML
 
-```powershell
-json2toml [filename]
+Options:
+  -h, --help     Print help
+  -V, --version  Print version
 ```
 
-**Example:**
-
-Input:
-
+## Example
+* Input: `input.json`:
 ```json
-// file.json
-{
-    "key": "value"
-}
+{"key": "value", "key2": "value2"}
 ```
-
-Output:
-
+* Command: `jsontoml input.json >output.toml`
+* Output: `output.toml`:
 ```toml
-# output.toml
-key = "value"
-
+"key" = "value"
+"key2" = "value2"
 ```
-
-<!--
-## IMPORTANT NOTE
-
-The output file is **always** named `output.toml`, I might fix that later to match the input filename if I can figure out how
--->

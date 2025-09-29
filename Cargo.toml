@@ -1,19 +1,16 @@
 [package]
-  name    = "json2toml"
-  version = "0.1.2"
-
-  authors      = ["voidei"]
-  categories   = ["command-line-utilities"]
-  description  = "A simple CLI tool to convert json files into toml format."
-  edition      = "2021"
-  license      = "MIT"
-  readme       = "README.md"
-  repository   = "https://github.com/voidei/json2toml"
-  rust-version = "1.77"
-
+name = "jsontoml"
+version = "0.2.0"
+edition = "2024"
+authors = ["voidei", "github.com/pepa65"]
+description = "Convert a JSON file to TOML on the CLI"
+repository = "https://github.com/pepa65/json2toml"
+readme = "README.md"
+license = "MIT"
+keywords = ["json", "conversion", "toml"]
+categories = ["command-line-utilities"]
 
 [dependencies]
-  anyhow     = "1.0.68"
-  clap       = "4.0.32"
-  serde_json = "1.0.91"
-  toml       = "0.5.10"
+clap = "4.0"
+serde_json = "1.0"
+toml = "0.5"
