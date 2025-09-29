@@ -1,10 +1,10 @@
 [package]
 name = "jsontoml"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2024"
 authors = ["voidei", "github.com/pepa65"]
 description = "Convert a JSON file to TOML on the CLI"
-repository = "https://github.com/pepa65/json2toml"
+repository = "https://github.com/pepa65/jsontoml"
 readme = "README.md"
 license = "MIT"
 keywords = ["json", "conversion", "toml"]

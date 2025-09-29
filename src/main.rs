@@ -7,7 +7,9 @@ fn app() -> Command {
 		.about(env!("CARGO_PKG_DESCRIPTION"))
 		.arg_required_else_help(true)
 		.arg(Arg::new("input").help("JSON file to convert to TOML").index(1))
+		.help_template("{name} {version} - {about}\n{usage-heading} {usage}\n{all-args}")
 }
+
 fn main() {
 	let matches = app().get_matches();
 	let input_file = matches.get_one::<String>("input").unwrap();

@@ -1,15 +1,13 @@
-# jsontoml 0.2.0
+# jsontoml 0.2.1
 **Convert a JSON file to TOML on the CLI**
-* Repo: https://github.com/pepa65/json2toml
+* Repo: https://github.com/pepa65/jsontoml
 * After [json2toml](https://github.com/voidei/json2toml)
 * Inspired heavily by [toml2json](https://github.com/woodruffw/toml2json/)
 
 ## Usage
 ```
-Convert a JSON file to TOML on the CLI
-
+jsontoml 0.2.0 - Convert a JSON file to TOML on the CLI
 Usage: jsontoml [input]
-
 Arguments:
   [input]  JSON file to convert to TOML
 
