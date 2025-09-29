@@ -1,7 +1,7 @@
 [![version](https://img.shields.io/crates/v/jsontoml.svg)](https://crates.io/crates/jsontoml)
 [![build](https://github.com/pepa65/jsontoml/actions/workflows/ci.yml/badge.svg)](https://github.com/pepa65/jsontoml/actions/workflows/ci.yml)
 [![dependencies](https://deps.rs/repo/github/pepa65/jsontoml/status.svg)](https://deps.rs/repo/github/pepa65/jsontoml)
-[![docs](https://img.shields.io/badge/docs-dqr-blue.svg)](https://docs.rs/crate/jsontoml/latest)
+[![docs](https://img.shields.io/badge/docs-jsontoml-blue.svg)](https://docs.rs/crate/jsontoml/latest)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pepa65/jsontoml/blob/master/LICENSE)
 [![downloads](https://img.shields.io/crates/d/jsontoml.svg)](https://crates.io/crates/jsontoml)
 
