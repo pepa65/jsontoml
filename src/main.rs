@@ -1,5 +1,5 @@
-use std::fs;
 use clap::{Arg, Command};
+use std::fs;
 
 fn app() -> Command {
 	Command::new(env!("CARGO_PKG_NAME"))
