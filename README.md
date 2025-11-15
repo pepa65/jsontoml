@@ -5,7 +5,7 @@
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pepa65/jsontoml/blob/master/LICENSE)
 [![downloads](https://img.shields.io/crates/d/jsontoml.svg)](https://crates.io/crates/jsontoml)
 
-# jsontoml 0.2.12
+# jsontoml 0.2.13
 **Convert a JSON file to TOML on the CLI**
 * Repo: https://github.com/pepa65/jsontoml
 * After [json2toml](https://github.com/voidei/json2toml)
@@ -13,7 +13,7 @@
 
 ## Usage
 ```
-jsontoml 0.2.12 - Convert a JSON file to TOML on the CLI
+jsontoml 0.2.13 - Convert a JSON file to TOML on the CLI
 Usage: jsontoml [input]
 Arguments:
   [input]  JSON file to convert to TOML
