@@ -1,6 +1,6 @@
 [package]
 name = "jsontoml"
-version = "0.2.24"
+version = "0.2.25"
 edition = "2024"
 authors = ["voidei", "github.com/pepa65"]
 description = "Convert a JSON file to TOML on the CLI"
